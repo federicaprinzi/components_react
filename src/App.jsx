@@ -1,11 +1,12 @@
-import "./App.css";
-import Clock from "./components/Clock";
+import "./index.css";
+import Welcome from "./components/Welcome";
+import Container from "./components/Container";
 
 const App = () => {
   return (
-    <div>
-      <Clock />
-    </div>
+    <Container title="Benvenuto">
+      <Welcome />
+    </Container>
   );
 };
 
